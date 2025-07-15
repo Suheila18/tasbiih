@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cont img{
+    width: 200px;
+    height: 170px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.const{
+    display: flex;
+    gap: 80px;
+}
+.mono{
+        /* background-color:rgb(228, 223, 214); */
+        width: 200px;
+        height: 180px;
+        margin-top:100px;
+}
+.mono img{
+    width: 200px;
+    height: 170px;
+    /* margin-top: 130px; */
+    margin-left: 55px;
+    margin-top: 70px;
+}
+.tre{
+    margin-left: 50px;
+    color: gray;
+    margin-top: 40px;
+}
+.nal{
+    color: black;
+    margin-top: 15px;
+}
+.button{
+    margin-top: 10px;
+}
+.qoraal{
+    color: grey;
+    margin-top: 20px;
+}
+.red{
+    color: black;
+    margin-top: 30px;
+    color: gray;
+    display: flex;
+    gap: 20px;
+}
+.red button{
+    color: red;
+    border-color: red;
+    background-color: white;
+}
+.united{
+    color: black;
+    margin-top: 25px;
+    margin-top: 30px;
+    font-size:  20px;
+
+}
+.united p span{
+    margin-top: 40px;
+}
+#kudar{
+    color: black;
+    font-size: 1.7em;
+    margin-top: 40px;
+    margin-left: 13px;
+    display: flex;
+     gap: 30px;
+}
+#df{
+    width: 20px;
+    height: 30px;
+    padding-bottom: 10px;
+    border-color: black;
+
+}
+#pp{
+    width: 20px;
+    height: 30px;
+       border-color: black;
+
+}
+#kl{
+    width: 20px;
+    height: 30px;
+    border-color: black;
+}
+#Buy button{
+    margin-left: 10px;
+    background-color: red;
+    border: none;
+    padding: 10px 10px ;
+    color: wheat;
+}
+#Cad{
+    color: red;
+    background-color: gray
+}
+@media (max-width:390px) {
+    .const{
+        display: block;
+    }
+    .mono{
+        margin-left: 30px;
+    }
+    .mono img{
+        margin-top: 0px;
+    }
+    .tt{
+        margin-top: 0px;
+    }
+}
