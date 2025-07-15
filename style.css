@@ -101,7 +101,7 @@
     color: red;
     background-color: gray
 }
-@media (max-width:390px) {
+@media (max-width:360px){
     .const{
         display: block;
     }
